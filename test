@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta chharset = "UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>VU Associations</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="main">
+      <ul class="links">
+        <li><a href="#associations">Associations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="account.html" class="account">My Account</a></li>
+      </ul>
+    </div>
+
+    <div id="welcome">
+      <h1>Welcome to VU Student Associations</h1>
+      <a href="#associations">See our Associations</a>
+    </div>
+  </header>
+
+  <section id="associations">
+    <h1>Associations</h1>
+    <div>
+      <img src="gallery/storm1.jpg" alt="storm" height="250" width="300">
+      <h2>STORM Association</h2>
+      <p>STORM is the Study Association for all students of the VU in the field of Computer Science, Artificial Intelligence and Mathematics.</p>
+      <a href="storm_association.html" class="button">More Details</a>
+    </div>
+    <div>
+      <img src="gallery/favervuta.jpg" alt="fevervuta" height="250" width="350">
+      <h2>Favervuta Association</h2>
+      <p>Study association for dentistry and dental care students in Amsterdam.</p>
+      <a href="favervuta_association.html" class="button">More Details</a>
+    </div>
+    <div>
+      <img src="gallery/mens.jpg" alt="storm" height="250" width="350">
+      <h2>Mens Association</h2>
+      <p>Studievereniging Mens is a young and flourishing association for students of  Medical Natural Sciences (MNW)  and students of connecting masters.</p>
+      <a href="mens_association.html" class="button">More Details</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div>
+      <h1>About us</h1>
+      <p>Our purpose is to help students from VU, Vrije University,
+      to know more about its associations and participate in it.
+    Our website offer a list of the VU's associations with their events,
+  some news, members, gallery etc. With this website students have chance
+to check the events' dates, gather information about the associations and decide which
+ one they want to join in order to meet new people and enjoy the activities.</p>
+    <img src="gallery/about.jpg" alt="about" height="300" width="500">
+    </div>
+  </section>
+
+  <section id="contact">
+      <h1>Contacts</h1>
+      <h2>Address:</h2>
+      <div class="map">
+        <div>
+          <iframe width="600" height="250" src="https://maps.google.com/maps?q=vrije%20universitet&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </div>
+      </div>
+      <p>De Boelelaan 1105,<br>
+         1081 HV Amsterdam,<br>
+          Netherlands<br>
+        </p>
+      <p>Telephone: +31 9999999</p>
+      <p>Email: vu_associations@gmail.com</p>
+  </section>
+</body>
+</html>
